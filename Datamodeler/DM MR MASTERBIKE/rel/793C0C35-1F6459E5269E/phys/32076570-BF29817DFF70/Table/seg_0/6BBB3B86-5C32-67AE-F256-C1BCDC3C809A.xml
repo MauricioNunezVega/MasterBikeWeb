@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ingreso" directorySegmentName="seg_0" id="6BBB3B86-5C32-67AE-F256-C1BCDC3C809A">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_ingreso" id="1F21FF57-3965-8101-742D-AFC4FECF1B1C">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipocomprobante" id="2EB2C0FA-4199-0F77-C8F0-4E8F72BE3262">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estadoingreso" id="3E8D3026-7DA8-FF6B-4D36-8CEE72D0F078">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numcomprobante" id="79345F26-130D-A5CE-7ECD-33B2070069F1">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fechhora" id="8BB08677-42EA-30C0-BB60-731248636C31">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_proveedor" id="8DA8B4BC-D7F3-47F3-1CB0-CEB4E256873E">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_ingreso_proveedor" id="C2647700-EF7A-D169-09A4-387315565D60">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ingreso_pk" id="50F4375B-9639-1AAE-FD5E-ADA62A4C647F">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

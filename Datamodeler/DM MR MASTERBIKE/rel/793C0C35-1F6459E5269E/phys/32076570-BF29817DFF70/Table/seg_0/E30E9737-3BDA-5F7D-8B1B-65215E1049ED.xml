@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="producto" directorySegmentName="seg_0" id="E30E9737-3BDA-5F7D-8B1B-65215E1049ED">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="imagen" id="1F3CFE02-8BAC-80FD-1CDD-060310D12579">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fabricpropia" id="57632338-AC6D-7FAE-7827-BD80961B36E6">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valproducto" id="586FEB34-707C-8FD5-9891-B01F57088F58">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="modelo" id="6BC3161E-36BA-F82F-4BED-28218A43E29B">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="marca" id="CA8C563A-A230-4721-1B18-8F799CB67AF9">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipoproducto" id="CC221B3F-CFC1-A232-1E65-EECDD5CB3191">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stock" id="CE1615F3-6471-C003-0D44-1061D427F6AB">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="F776AA1D-5665-14BC-E7F5-05C2E82A5899">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombreproducto" id="FA6BCC0E-F503-5BA5-4BC7-B57E7072FDCE">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_producto" id="FEF9263F-D42E-8597-3B97-862C617C52E5">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="producto_pk" id="F7617EAB-40CC-106A-BDC5-889A0EB0D3E1">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

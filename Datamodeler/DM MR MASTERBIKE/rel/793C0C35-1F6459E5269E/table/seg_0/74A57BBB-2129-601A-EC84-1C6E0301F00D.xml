@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74A57BBB-2129-601A-EC84-1C6E0301F00D" name="servicio">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>7E0C0919-A102-4BF2-27E8-8430142C5EC7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="FC4FA09D-7B47-8099-0384-56353FD786F9">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>260A5E9C-53C2-9957-DE3F-BB0A495ACD77</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_servicio" id="EB3EE9F2-C205-CB4B-7E41-B52DA2BDD998">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>2AA64FA7-25BE-3A6E-0457-E7CE80AB2800</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>670FD716-8510-1821-C23B-379DBF29D5F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioservicio" id="772E2A28-963F-A6AB-CE96-E27B679CDB13">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>CEDB96C5-9CC3-16E8-E26F-508DECA25BB1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="595F273C-40E6-A7E5-4841-FB2F03BE6D27" name="servicio_pk">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>CC354308-7747-DF95-7ED9-8891E1B7009F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC4FA09D-7B47-8099-0384-56353FD786F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

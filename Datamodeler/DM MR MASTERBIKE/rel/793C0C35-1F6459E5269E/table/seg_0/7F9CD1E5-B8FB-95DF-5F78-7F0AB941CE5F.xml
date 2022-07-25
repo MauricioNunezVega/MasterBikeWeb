@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F9CD1E5-B8FB-95DF-5F78-7F0AB941CE5F" name="detalleventa">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>6CAD856C-1289-65CB-CD0C-6508C101FFDD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalleventa" id="60BCCED6-CFA4-5BAC-E266-B48B11965F1E">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>A6257486-BFDB-F3CB-4E49-38D207D942CB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="FF586B18-C163-D405-B2D6-0AEACBB4D8A3">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>75C753DE-F972-66C6-9199-4FBF9781A1CD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioventa" id="CFA8F518-20CE-3812-3284-F34D3CA9A01F">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>BD98E85D-1AC3-ADD8-71D4-D27E1E3BAA12</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_venta" id="4278BD41-EB3B-B270-5116-B02B3D62F0CB">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>A0E75799-5AD9-BE81-4556-F2BC4B6D06B1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6FF8975-D290-73A6-627E-74F28F912036" referredColumn="F8846DB7-D22A-3D56-7655-8181AC5AC00E"/>
+</associations>
+</Column>
+<Column name="id_producto" id="12088640-6F51-1FF2-3150-90A717CAF70C">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>5628E0B1-6F39-2432-2CE1-02D6862FBA6A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3E69784F-2BB1-8EF5-9246-4191EE27499F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C49A4C1-EFED-CC67-A657-6ECDD95F5882" referredColumn="FEF9263F-D42E-8597-3B97-862C617C52E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41BF6968-4182-6703-9AAB-79F47C612FFE" name="detalleventa_pk">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>DCCFDF50-E1C9-08C3-FF82-AECD6732E266</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60BCCED6-CFA4-5BAC-E266-B48B11965F1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A71232E5-9A1A-1BAE-085C-E8BCBEE842D8" name="fk_detalleventa_producto">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12088640-6F51-1FF2-3150-90A717CAF70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AC1EB99-2BE6-9DCC-F418-BE7D91614EC0" name="fk_detalleventa_venta">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4278BD41-EB3B-B270-5116-B02B3D62F0CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

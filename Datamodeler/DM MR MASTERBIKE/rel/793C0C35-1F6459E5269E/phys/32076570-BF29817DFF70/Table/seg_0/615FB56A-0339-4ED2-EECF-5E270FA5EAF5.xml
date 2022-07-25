@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="reporte" directorySegmentName="seg_0" id="615FB56A-0339-4ED2-EECF-5E270FA5EAF5">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_sucursal" id="1C6D75B6-90E8-59AC-7006-C9CD8CA452E5">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="totalventa" id="28D1B783-0E36-3407-4622-16F4A10C0108">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecfin" id="33CB11C4-8384-287C-178D-11916FFC2E7A">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="accesorioout" id="3F71CBD7-3BFB-490A-3BDC-AD3385A19B50">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="48130BEA-4C9C-73F3-FC65-DD3C0091EA62">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="accesorioin" id="58D10B51-6943-E17A-681A-235A34C6AF3E">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sucursalreporte" id="64D75B20-21C0-80FE-E733-F4ECB568D7C0">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tiporeporte" id="9D919CCF-C83B-074F-00A2-46D4D49F194E">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_reporte" id="A051ACC9-A437-3805-3D30-EA9AEF5D4B22">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecinicio" id="ACD78628-7B62-28DF-13EB-C46C599AF1B9">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="bicicletain" id="B2AB599D-59A9-BDEB-8E8A-DDAD9664E01E">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="bicicletaout" id="B741E714-281B-F7FC-37D9-894918221B40">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecemision" id="C2B589A8-11E6-9C79-ED1D-665BCA0CC67C">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_reporte_sucursal" id="39CD90D4-D624-5563-4B19-B7856882F803">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_reporte_usuario" id="BA81CBBD-A2E4-F1F2-EBE3-9256FEEC1225">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="reporte_pk" id="329FBDD4-C5D6-E0E1-401D-196B6E065092">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57E883A9-7215-0B3B-AFF8-17F5C4CF80F6" containerWithKeyObject="16E8F570-1C8E-4E4E-952A-7851237BA8F7" localFKIndex="806781DF-3DF1-00D2-4241-8613F09564DA" name="fk_mantencion_servicio">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>FBFB1C87-8442-0407-DE10-319A30ABC803</importedID>
+<referredTableLongName>servicio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74A57BBB-2129-601A-EC84-1C6E0301F00D</referredTableID>
+<keyObject>595F273C-40E6-A7E5-4841-FB2F03BE6D27</keyObject>
+<referredKeyID>595F273C-40E6-A7E5-4841-FB2F03BE6D27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

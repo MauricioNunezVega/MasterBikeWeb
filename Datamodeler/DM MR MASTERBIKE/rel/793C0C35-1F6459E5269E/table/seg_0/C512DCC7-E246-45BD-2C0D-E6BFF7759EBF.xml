@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C512DCC7-E246-45BD-2C0D-E6BFF7759EBF" name="pago">
+<createdBy>baggr</createdBy>
+<createdTime>2021-12-05 19:09:40 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="D62DDCB7-808D-AE1F-57B5-C17C585367C1">
+<createdBy>baggr</createdBy>
+<createdTime>2021-12-05 19:12:57 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="7B948808-5AAF-E70B-2AA5-424E29DC3C1D">
+<createdBy>baggr</createdBy>
+<createdTime>2021-12-05 19:12:57 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CD9EE95-7BD4-4438-85E6-CADD11BF608B" name="pago_PK">
+<createdBy>baggr</createdBy>
+<createdTime>2021-12-05 19:12:57 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D62DDCB7-808D-AE1F-57B5-C17C585367C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

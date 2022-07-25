@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 29-10-2021 20:24:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Seguimientoenvios" table="SEGUIMIENTOENVIOS" schema="BDCLETA" optimistic-lock="version">
+        <id name="idSeguiEnvios" type="long">
+            <column name="ID_SEGUI_ENVIOS" precision="10" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="venta" class="Model.Venta" fetch="select">
+            <column name="ID_VENTA" precision="3" scale="0" not-null="true" unique="true" />
+        </many-to-one>
+        <property name="estadoentrega" type="string">
+            <column name="ESTADOENTREGA" length="10" not-null="true" />
+        </property>
+        <property name="fecdespacho" type="date">
+            <column name="FECDESPACHO" length="7"  />
+        </property>
+        <property name="fecentrega" type="date">
+            <column name="FECENTREGA" length="7"  />
+        </property>
+    </class>
+</hibernate-mapping>

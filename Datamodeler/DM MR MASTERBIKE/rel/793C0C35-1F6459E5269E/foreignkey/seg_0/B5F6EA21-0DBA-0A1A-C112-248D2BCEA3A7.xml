@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5F6EA21-0DBA-0A1A-C112-248D2BCEA3A7" containerWithKeyObject="008138A0-8179-334E-90B8-70DA88D18FDC" localFKIndex="6B663415-5D04-D958-5B28-4B035B3B2583" name="fk_documentacion_producto">
+<sourceDDLFile>DDL_BD_UPDATE3 - copia.sql</sourceDDLFile>
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:21:39 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<importedID>7A006E97-3C04-DA08-0CF6-D5DBED2AF800</importedID>
+<referredTableLongName>producto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E30E9737-3BDA-5F7D-8B1B-65215E1049ED</referredTableID>
+<keyObject>F7617EAB-40CC-106A-BDC5-889A0EB0D3E1</keyObject>
+<referredKeyID>F7617EAB-40CC-106A-BDC5-889A0EB0D3E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_producto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

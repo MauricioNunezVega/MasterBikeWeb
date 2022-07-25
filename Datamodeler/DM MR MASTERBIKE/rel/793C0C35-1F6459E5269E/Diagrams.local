@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="53777A48-686C-BEAE-4DC7-9F97AC6B02F5" name="DDL_BD_UPDATE3 - copia" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

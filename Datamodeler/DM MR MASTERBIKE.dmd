@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DM MR MASTERBIKE" id="75BD4FB4-BD95-866F-9570-F66BF69BF5CD" version="3.5">
+<createdBy>baggr</createdBy>
+<createdTime>2021-10-07 16:16:44 UTC</createdTime>
+<ownerDesignName>DM MR MASTERBIKE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75BD4FB4-BD95-866F-9570-F66BF69BF5CD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BEB78538-16F8-DFF8-46F4-091E0065BFB3">
+<designStoragePath>C:\DDL_BD_UPDATE3 - copia</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
