@@ -1,7 +1,7 @@
 <%-- 
     Document   : EnviarSeguimiento
     Created on : 10-11-2021, 18:10:31
-    Author     : Marco
+    Author     : Mauricio
 --%>
 
 <%@page import="Model.Venta"%>
@@ -110,7 +110,7 @@
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="ListarArriendosPorUsuario.jsp" >Mis arriendos</a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="Controlador?accion=MisCompras">Mis compras</a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="MisDatos.jsp" >Mis datos</a></li>
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar SesiÃ³n</a></li>
                                             </ul>
 
 
@@ -128,7 +128,7 @@
                                                 <li class="nav-item bg-dark"><a class="nav-link">Hola <c:out value="${usuarioActivo.getNombre()}"/></a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="MenuTrabajadores.jsp">Corporativo</a></li>
 
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar SesiÃ³n</a></li>
                                             </ul>
 
 
@@ -145,7 +145,7 @@
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item bg-dark"><a class="nav-link">Hola <c:out value="${usuarioActivo.getNombre()}"/></a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="MenuTrabajadores.jsp">Corporativo</a></li>
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar SesiÃ³n</a></li>
                                             </ul>
 
 
@@ -165,7 +165,7 @@
                                                 <li class="nav-item bg-dark"><a class="nav-link">Hola <c:out value="${usuarioActivo.getNombre()}"/></a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="MenuTrabajadores.jsp">Corporativo</a></li>
 
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar SesiÃ³n</a></li>
                                             </ul>
 
 
@@ -188,7 +188,7 @@
                                                 <li class="nav-item bg-dark"><a class="nav-link">Hola <c:out value="${usuarioActivo.getNombre()}"/></a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="MenuTrabajadores.jsp">Corporativo</a></li>
 
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="ControladorLogout" style="color:red">Cerrar SesiÃ³n</a></li>
                                             </ul>
 
                                         </li>
@@ -215,7 +215,7 @@
                                             <a href="login.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                                aria-expanded="false">Mi Cuenta</a>
                                             <ul class="dropdown-menu">
-                                                <li class="nav-item bg-dark"><a class="nav-link" href="Login.jsp">Iniciar Sesión</a></li>
+                                                <li class="nav-item bg-dark"><a class="nav-link" href="Login.jsp">Iniciar SesiÃ³n</a></li>
                                                 <li class="nav-item bg-dark"><a class="nav-link" href="ControladorUsuario">Registrate</a></li>
 
 
@@ -238,7 +238,7 @@
         <!-- End Header Area -->
         <div class="card-header">
             <a class="btn btn-primary " href="MenuTrabajadores.jsp">Volver</a>
-            <h2 class="w3-wide w3-center text-center" >Lista de ventas pendientes a envío</h2>
+            <h2 class="w3-wide w3-center text-center" >Lista de ventas pendientes a envÃ­o</h2>
 
         </div>
         <div class="table-responsive" id="mydatatable-container">
@@ -341,7 +341,7 @@
                             <!--Grid column-->
                             <div class="col-auto">
                                 <p class="pt-2">
-                                    <strong>Suscríbete a nuestras noticias</strong>
+                                    <strong>SuscrÃ­bete a nuestras noticias</strong>
                                 </p>
                             </div>
                             <!--Grid column-->
@@ -351,7 +351,7 @@
                                 <!-- Email input -->
                                 <div class="form-outline form-white mb-4">
                                     <input type="email" id="form5Example21" class="form-control" />
-                                    <label class="form-label" for="form5Example21">Tú email</label>
+                                    <label class="form-label" for="form5Example21">TÃº email</label>
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -373,8 +373,8 @@
                 <!-- Section: Text -->
                 <section class="mb-4">
                     <p>
-                        La fábrica de bicicletas San Diego nació en el año 1990 en la ciudad de Santiago como respuesta a 
-                        la creciente demanda de bicicletas de los habitantes de la capital, hoy, 31 años después bajo la
+                        La fÃ¡brica de bicicletas San Diego naciÃ³ en el aÃ±o 1990 en la ciudad de Santiago como respuesta a 
+                        la creciente demanda de bicicletas de los habitantes de la capital, hoy, 31 aÃ±os despuÃ©s bajo la
                         nueva marca "Masterbike" busca nuevamente ser protagonista del ciclismo nacional ofreciendo nuevos 
                         servicios de acuerdo a las necesidades de los riders chilenos.
                     </p>
@@ -426,14 +426,14 @@
 
                         <!--Grid column-->
                         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Atención al cliente</h5>
+                            <h5 class="text-uppercase">AtenciÃ³n al cliente</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="FormularioContacto.jsp" class="text-white">Contáctanos</a>
+                                    <a href="FormularioContacto.jsp" class="text-white">ContÃ¡ctanos</a>
                                 </li>
                                 <li>
-                                    <a href="TerminosCondiciones.jsp" class="text-white">Términos y condiciones</a>
+                                    <a href="TerminosCondiciones.jsp" class="text-white">TÃ©rminos y condiciones</a>
                                 </li>
                                 <li>
                                     <a href="AvisoLegal.jsp" class="text-white">Aviso legal</a>
@@ -448,13 +448,13 @@
 
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="RegistroUsuario.jsp" class="text-white">Regístrate</a>
+                                    <a href="RegistroUsuario.jsp" class="text-white">RegÃ­strate</a>
                                 </li>
                                 <li>
-                                    <a href="Login.jsp" class="text-white">Iniciar sesión</a>
+                                    <a href="Login.jsp" class="text-white">Iniciar sesiÃ³n</a>
                                 </li>
                                 <li>
-                                    <a href="Login.jsp" class="text-white">Seguimiento de envíos</a>
+                                    <a href="Login.jsp" class="text-white">Seguimiento de envÃ­os</a>
                                 </li>
                             </ul>
                         </div>
@@ -468,7 +468,7 @@
 
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2021 Copyright:
+                Â© 2021 Copyright:
                 <a class="text-white" href="">Sealsior</a>
             </div>
             <!-- Copyright -->
